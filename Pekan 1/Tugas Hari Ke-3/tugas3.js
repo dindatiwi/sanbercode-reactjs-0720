@@ -56,45 +56,45 @@
 //soal lima
 {
     var tanggal = 26;
-    var bulan = 2;
+    var bulan = 1;
     var tahun = 2020;
     switch(bulan){
         case 1: {
-            console.log(tanggal + " " + "Januari" + " " + tahun);break;
+            bulan = "Januari";break;
         }
         case 2: {
-            console.log(tanggal + " " + "Februari" + " " + tahun);break;
+            bulan = "Februari";break;
         }
         case 3: {
-            console.log(tanggal + " " + "Maret" + " " + tahun);break;
+            bulan = "Maret";break;
         }
         case 4: {
-            console.log(tanggal + " " + "April" + " " + tahun);break;
+            bulan = "April" ;break;
         }
         case 5: {
-            console.log(tanggal + " " + "Mei" + " " + tahun);break;
+            bulan = "Mei";break;
         }
         case 6: {
-            console.log(tanggal + " " + "Juni" + " " + tahun);break;
+            bulan = "Juni";break;
         }
         case 7: {
-            console.log(tanggal + " " + "Juli" + " " + tahun);break;
+            bulan = "Juli" ;break;
         }
         case 8: {
-            console.log(tanggal + " " + "Agustus" + " " + tahun);break;
+            bulan = "Agustus";break;
         }
         case 9: {
-            console.log(tanggal + " " + "September" + " " + tahun);break;
+            bulan = "September";break;
         }
         case 10: {
-            console.log(tanggal + " " + "Oktober" + " " + tahun);break;
+            bulan = "Oktober";break;
         }
         case 11: {
-            console.log(tanggal + " " + "November" + " " + tahun);break;
+            bulan = "November";break;
         }
         case 12: {
-            console.log(tanggal + " " + "Desember" + " " + tahun);break;
+            bulan = "Desember";break;
         }
 
-    }
+    }console.log(tanggal + " " + bulan + " " + tahun);
 }
