@@ -38,7 +38,7 @@ console.log('-------------------------------');
     var line = "";
     for (var i = 1; i <= 7; i++) {
       for (var j = 1; j <= i; j++) {
-        line += "# "
+        line += "#"
       }
       line += "\n";
     }
