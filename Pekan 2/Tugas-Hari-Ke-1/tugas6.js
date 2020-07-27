@@ -51,7 +51,7 @@
 
 //soal empat 
 //release 0
-{
+
     class Animal {
         constructor(name,legs,cold_blooded) {
             this.name = name
@@ -65,21 +65,21 @@
     console.log(sheep.name) // "shaun"
     console.log(sheep.legs) // 4
     console.log(sheep.cold_blooded) // false
-}
+
 //release 1
-{
+
     // Code class Ape dan class Frog di sini
-    class Ape{
+    class Ape extends Animal{
         constructor(name) {
-            this.name = name
+            super(name)
         }
         yell(){
             return console.log("Auooo")
         }
     }
-    class Frog{
+    class Frog extends Animal{
         constructor(name) {
-            this.name = name
+            super(name)
         }
         jump(){
             return console.log("hop hop")
@@ -91,7 +91,7 @@
     
     var kodok = new Frog("buduk")
     kodok.jump() // "hop hop" 
-}
+
 
 //soal lima
 {
@@ -125,7 +125,7 @@
       
         start() {
             this.render();
-          this.timer = setInterval(() => this.render(), 1000);
+          this.timer = setInterval(function(){this.render()} , 1000);
         };
       
       }
