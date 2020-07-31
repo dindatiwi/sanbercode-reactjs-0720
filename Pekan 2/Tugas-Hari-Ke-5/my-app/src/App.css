@@ -1,0 +1,24 @@
+
+.App{
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+.App h1{
+  text-align: center;
+}
+.App form{
+  margin: 20px
+}
+
+.App td:nth-child(1){
+  font-weight: bold;
+}
+.App td:nth-child(2){
+  padding-left: 50px
+}
+input[type=submit]{
+  border-radius: 15px;
+  padding: 3px 5px;
+  background-color: white;
+}
